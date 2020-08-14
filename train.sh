@@ -1,1 +1,1 @@
-docker run  -v $(PWD)/model/:/model ml-prod /bin/bash -c 'python train.py'
+docker run  -v $(pwd)/model/:/model ml-prod /bin/bash -c 'python train.py'
